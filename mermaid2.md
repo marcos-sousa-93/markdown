@@ -1,6 +1,7 @@
 ```mermaid
 sequenceDiagram
-    participant U as 👤 Usuário
+    participant U as |👤 Usuário|
+                     |----------|
     participant B as 🌐 Browser
     participant F as 🐍 Flask (app.py)
     participant D as 💾 database.py
